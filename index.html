@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nogaye Laye FALL | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio de Nogaye Laye FALL, étudiante en informatique appliquée et développeuse web junior."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <header class="header">
+      <nav class="nav container">
+        <a href="#home" class="brand">N<span>.</span></a>
+        <button class="menu-toggle" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#about">À propos</a>
+          <a href="#services">Services</a>
+          <a href="#work">Projets</a>
+          <a href="#story">Parcours</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">DÉVELOPPEUSE WEB • PASSIONNÉE PAR LE CLOUD &amp; LE DEVOPS</p>
+          <h1>
+            Développeuse web <span id="typewriter">Full-Stack junior</span>
+          </h1>
+          <p class="lead">
+            Je m'appelle Nogaye Laye Fall. Étudiante en informatique, je conçois des applications web utiles et fonctionnelles, tout en développant mes compétences dans le Cloud, le DevOps et l'automatisation.
+          </p>
+          <div class="cta-row">
+            <a href="#work" class="btn btn-primary">Voir mes projets</a>
+            <a href="#contact" class="btn btn-secondary">Parlons</a>
+          </div>
+          <ul class="stats">
+            <li><strong data-target="3">0</strong><span>années d'études</span></li>
+            <li><strong data-target="100">0</strong><span>% passion</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <div class="card-glow"></div>
+            <div class="mini-tag tag-one">Full-Stack</div>
+            <div class="mini-tag tag-two">Laravel/Angular</div>
+            <div class="mini-tag tag-three">Web</div>
+            <div class="portrait">
+              <div class="portrait-inner">
+                <img
+                  class="user-photo"
+                  src="photo.jpeg"
+                  alt="Nogaye Laye FALL"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+                <div class="figure fallback-figure" aria-hidden="true">
+                  <span class="hair"></span>
+                  <span class="head"></span>
+                  <span class="eye left"></span>
+                  <span class="eye right"></span>
+                  <span class="smile"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about container reveal">
+        <div class="section-heading">
+          <p class="eyebrow">À propos</p>
+          <h2>Une développeuse web passionnée par le Cloud et le DevOps.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <p>
+              Je suis Nogaye Laye FALL, développeuse web et étudiante en informatique.
+            </p>
+            <p>J’aime créer des solutions web utiles tout en explorant le Cloud, le DevOps et l’automatisation.</p>
+          </div>
+
+          <div class="about-card highlight-card">
+            <div class="mini-label">EXPERTISES</div>
+            <ul>
+              <li>Développement web</li>
+              <li>Full-Stack</li>
+              <li>Bases de données</li>
+              <li>Docker &amp; Linux</li>
+              <li>Cloud &amp; DevOps</li>
+              <li>CI/CD</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services container reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>Des solutions web et techniques pour donner vie à des projets concrets.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="icon">✦</div>
+            <h3>Développement Full-Stack</h3>
+            <p>Création d'applications web modernes, fonctionnelles et adaptées aux besoins.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">◌</div>
+            <h3>Bases de données</h3>
+            <p>Conception, gestion et intégration de bases de données pour des applications fiables.</p>
+          </article>
+          <article class="service-card">
+            <div class="icon">▣</div>
+            <h3>Cloud &amp; DevOps</h3>
+            <p>Conteneurisation, déploiement et automatisation avec Docker, Linux, CI/CD et AWS.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="work container reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Projets</p>
+          <h2>Des projets concrets pour apprendre, créer et progresser.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-one">
+            <img class="project-image" src="Capture d'écran 2026-09-17 155355.png" alt="Capture de la boutique 2M Digital Shop" />
+            <div class="project-overlay">
+              <span>01 — Projet freelance</span>
+              <h3>2M Digital Shop</h3>
+              <p>Création d'une boutique en ligne pour un commerce de smartphones et accessoires.</p>
+            </div>
+          </article>
+          <article class="project-card project-two">
+            <img class="project-image" src="Capture d'écran 2026-09-17 155741.png" alt="Capture du système de gestion de pointage de l'ANSD" />
+            <div class="project-overlay">
+              <span>02 — Projet de stage</span>
+              <h3>Système de gestion de pointage</h3>
+              <p>Développement d'une application de gestion du pointage des agents à l'ANSD.</p>
+            </div>
+          </article>
+          <article class="project-card project-three">
+            <img class="project-image project-image-rotated" src="Capture d'écran 2026-09-17 161029.png" alt="Capture du projet DevOps" />
+            <div class="project-overlay">
+              <span>03 — Projet DevOps</span>
+              <h3>Pipeline CI/CD avec GitHub Actions</h3>
+              <p>Mise en place d'un pipeline avec Docker, GitHub Actions et Trivy pour automatiser le build, le scan de sécurité et le déploiement.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="story container reveal">
+        <div class="section-heading">
+          <p class="eyebrow">Parcours</p>
+          <h2>Un parcours construit entre développement web, projets concrets et découverte du Cloud &amp; DevOps.</h2>
+        </div>
+
+        <div class="story-grid">
+          <div class="story-panel">
+            <span>01</span>
+            <h3>Formation</h3>
+            <p>Licence 3 IAGE à l'ISI Dakar, avec la soutenance de mémoire à venir.</p>
+          </div>
+          <div class="story-panel">
+            <span>02</span>
+            <h3>Développement web</h3>
+            <p>Je conçois des applications web et des solutions adaptées à des besoins concrets.</p>
+          </div>
+          <div class="story-panel">
+            <span>03</span>
+            <h3>Cloud &amp; DevOps</h3>
+            <p>Je développe progressivement mes compétences en Linux, Docker, CI/CD et AWS.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="cv" class="cv-section container reveal">
+        <div class="cv-copy">
+          <p class="eyebrow">Mon CV</p>
+          <h2>Mon parcours, en un document.</h2>
+          <p>Découvre mon expérience, mes compétences et les projets qui construisent mon profil.</p>
+        </div>
+        <a class="cv-link" href="CV_Nogaye_Laye_Fall.pdf" download>
+          <span>Télécharger mon CV</span>
+          <span class="cv-arrow" aria-hidden="true">↓</span>
+        </a>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer reveal">
+      <div class="container footer-inner">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>On crée quelque chose de beau et de significatif ?</h2>
+        </div>
+        <div class="cta-row">
+          <a href="mailto:nogayefall363@gmail.com" class="btn btn-primary">nogayefall363@gmail.com</a>
+          <a href="https://instagram.com/nogaye_layee" target="_blank" rel="noreferrer" class="btn btn-secondary">Instagram : @nogaye_layee</a>
+          <a href="https://www.linkedin.com/in/nogaye-laye-fall-028b33347" target="_blank" rel="noreferrer" class="btn btn-secondary">LinkedIn</a>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Nogaye Laye FALL</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
